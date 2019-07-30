@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+		<style>
+		
+			.wrp {
+				max-width: 750px;
+
+				margin: auto;
+				margin-top: 50px;
+			}
+
+			.material-icons {
+				opacity: 0.5;
+				cursor: pointer;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			.material-icons:hover {
+				opacity: 1;
+			}
+			.material-icons:active {
+				opacity: 0.5;
+			}
+			.material-icons-md-18 {
+				font-size: 18px;
+			}
+			.material-icons-md-24 {
+				font-size: 24px;
+			}
+			.material-icons-md-36 {
+				font-size: 36px;
+			}
+			.material-icons-md-48 {
+				font-size: 48px;
+			}
+			input, select, label {
+				cursor: pointer;
+			}
+
+		
+		</style>
+
+  </head>
+  <body>
+      
+    <form class="wrp">
+      
+      
+      
+<!--       order-item-blok -->
+      <fieldset class="border border-secondary rounded">
+        
+        
+        
+        
+        <div class="bg-light rounded-top clearfix">
+
+          <i class="material-icons text-secondary float-right">clear</i>
+          <i class="material-icons text-secondary float-right">create</i>
+          
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="print-param-blok p-3">
+          <h4 class="text-primary">Печать</h4>
+          <div class="">
+            
+            
+            <h6>Отпечаток</h6>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Ширина м">
+              </div>
+              
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Высота м">
+              </div>
+              <div class="form-group col-md-3">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Кол-во">
+              </div>
+              <i class="material-icons mt-1 text-secondary">swap_horiz</i>
+              <i class="material-icons mt-1 text-secondary">clear</i>
+            </div>
+            <i class="material-icons text-secondary">add</i>
+          </div>
+          <div class="">
+            <h6>Холст <i class="material-icons text-secondary">create</i></h6>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Ширина м">
+              </div>
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Высота м">
+              </div>
+              <div class="form-group col-md-3">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Кол-во">
+              </div>
+              <i class="material-icons mt-1 text-secondary">swap_horiz</i>
+              <i class="material-icons mt-1 text-secondary">clear</i>
+            </div>
+            <i class="material-icons text-secondary">add</i>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="">Материал</label><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="">Тип</label><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="">Вид печати</label><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <span>доступные форматы</span>
+            <span class="badge badge-pill badge-success" data-toggle="tooltip" data-placement="right" title="печатное поле 1.01">1.05</span>
+            <span class="badge badge-pill badge-success" data-toggle="tooltip" data-placement="right" title="печатное поле 1.21">1.25</span>
+          </div>
+          
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customCheck95">
+            <label class="custom-control-label" for="customCheck95">Печать без тех полей</label>
+          </div>
+          
+        </div>
+        
+        <div class="optional-work-blok p-3">
+          <h4 class="text-primary">Постпечатная обработка</h4>
+          
+          <div class="custom-control custom-checkbox mb-4">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Постпечатная обработка каждой стороны с индивидуальными параметрами</label>
+            <i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+          </div>
+          
+          <div class="">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <select id="" class="form-control form-control-sm">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Шаг см">
+              </div>
+              <div class="col-md-4 align-bottom mt-1">
+                <span>Люверсы</span><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              </div>
+            </div>
+       
+   
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">Проварка края</label>
+              <i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+            </div>
+
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck3">
+              <label class="custom-control-label" for="customCheck3">Рез по контуру</label>
+              <i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+            </div>
+            
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck4">
+              <label class="custom-control-label" for="customCheck4">Шнур</label>
+              <i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <select id="" class="form-control form-control-sm">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <input type="number" class="form-control form-control-sm" id="" placeholder="Шаг см">
+              </div>
+              <div class="col-md-4 align-bottom mt-1">
+                <span>Карман</span><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <select id="" class="form-control form-control-sm">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-4 align-bottom mt-1">
+                <span>Ламинация</span><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <select id="" class="form-control form-control-sm">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-4 align-bottom mt-1">
+                <span>Накатка на пластик</span><i class="material-icons align-top ml-1 text-secondary" data-toggle="tooltip" data-placement="right" title="Текст подсказки">help_outline</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="other-param-blok p-3">
+          <h4 class="text-primary mb-3">Дополнительные параметры</h4>
+          
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <input type="number" class="form-control form-control-sm" id="" placeholder="Шаг см">
+            </div>
+            <div class="col-md-4 align-bottom mt-1">
+              <span>Стоимость макета</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <input type="number" class="form-control form-control-sm" id="" placeholder="Шаг см">
+            </div>
+            <div class="col-md-4 align-bottom mt-1">
+              <span>Цена печати</span>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="" class="form-control form-control-sm">
+                <option selected>менее 10% не учитывать</option>
+                <option>по цене метериала</option>
+                <option>по цене метериала и печати</option>
+              </select>
+            </div>
+            <div class="col-md-4 align-bottom mt-1">
+              <span>Стоимость перерасхода</span>
+            </div>
+          </div>
+          
+        </div>
+        
+      </fieldset>
+      
+      <i class="material-icons text-secondary md-48 my-5">add</i>
+      
+<!--      order-control-blok-->
+      <fieldset class="border border-secondary rounded">
+        
+        <div class="blok-1 p-3">
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-4 align-bottom mt-1">
+              <span>Заказчик</span>
+            </div>
+          </div>
+          
+          
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customCheck5">
+            <label class="custom-control-label" for="customCheck5">Партнерская программа</label>
+          </div>
+          
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customCheck6">
+            <label class="custom-control-label" for="customCheck6">Цветопроба</label>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <input type="number" class="form-control form-control-sm" id="" placeholder="Шаг см">
+            </div>
+            
+            <div class="col-md-4 align-bottom mt-1">
+              <span>Общий объем</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <input type="number" class="form-control form-control-sm" id="" placeholder="Промо код">
+            </div>
+          </div>
+
+          
+          
+          
+          <button type="button" class="btn btn-sm btn-primary">Расчитать</button>
+          <button type="button" class="btn btn-sm btn-primary" disabled>В работу</button>
+          <button type="button" class="btn btn-sm btn-primary" disabled>Заказать</button>
+        </div>
+        
+      </fieldset>
+      
+    </form>
+    
+
+
+    
+    
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+    <script>
+      
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

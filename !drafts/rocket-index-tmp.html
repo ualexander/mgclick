@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Rocket</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    
+    <link href="../img/rocket-logo-64.png" rel="icon" type="image/x-icon">
+    <link rel="icon" href="../img/rocket-logo-32.png" sizes="32x32">
+    <link rel="icon" href="../img/rocket-logo-192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../img/rocket-logo-180.png">
+    <meta name="msapplication-TileImage" content="../img/rocket-logo-270.png">
+    
+  </head>
+  
+  <body class="d-flex flex-column">
+    
+    <header class="border-bottom fixed-top bg-white">
+      
+      <div class="container">
+        
+        <div class="d-flex justify-content-between my-1">
+
+          <ul class="nav nav-pills">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Печать</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Касса</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Клиенты</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">добавить</a>
+                <a class="dropdown-item" href="#">список</a>
+                <a class="dropdown-item" href="#">оплаты</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Материалы</a>
+            </li>
+
+          </ul>
+          
+          <div class="nav">
+            
+            <a href="#" class="btn btn-link" role="button" aria-pressed="true">Выйти</a>
+            
+          </div>
+  
+        </div>
+        
+      </div>
+
+    </header>
+    
+    
+    
+    <main class="">
+      
+      <div class="container">
+        
+        <div class="row my-5 mx-3">
+
+          
+          <div class="col-2 mt-5">
+            
+            <ul class="nav nav-pills flex-column sticky-top" style="top:6rem">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Учет</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link active" href="#">Остаток</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Внести</a>
+              </li>
+
+            </ul>
+            
+          </div>
+
+
+          <div class="col-10 mt-5">
+
+
+            <div class="alert alert-info fade show mb-5" role="alert">
+              Текст уведомления
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            
+            <form class="border border-secondary rounded p-3 mb-5">
+              
+              <h4 class="text-primary">Добавить клиента</h4>
+<!--              <h4 class="text-primary">Редактировать карту клиента</h4>-->
+              <hr>
+              
+              <div class="form-row mb-3">
+                <div class="col-6">
+                  <input type="text" class="form-control form-control-sm" pattern="[А-Яа-яЁё ]{5,30}" required placeholder="Имя Фамилия или Организация">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control form-control-sm" required placeholder="email">
+                </div>
+              </div>
+              
+              <div class="form-row mb-3">
+                <div class="col-6">
+                  <input type="tel" class="form-control form-control-sm" pattern="\+7\s\d{3}\s\d{3}\s\d{2}\s\d{2}" required placeholder="основной телефон (формат +7 XXX XXX XX XX)">
+                </div>
+                <div class="col-6">
+                  <input type="tel" class="form-control form-control-sm" pattern="\+7\s\d{3}\s\d{3}\s\d{2}\s\d{2}" placeholder="дополнительный телефон (формат +7 XXX XXX XX XX)">
+                </div>
+              </div>
+
+              
+              <input type="submit" class="btn btn-sm btn-primary" value="Добавить">
+
+<!--              <button type="button" class="btn btn-sm btn-primary">Сохранить</button>-->
+              
+            </form>
+            
+
+<!--
+            <form class="border border-secondary rounded p-3 form-inline mb-5">
+              <div class="form-group">
+                <label for="staticEmail2" class="sr-only">Email</label>
+                <input type="text" readonly class="form-control form-control-sm" id="staticEmail2" value="email@example.com">
+              </div>
+              <div class="form-group mx-sm-3">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-sm btn-primary">Confirm identity</button>
+            </form>
+-->
+
+
+
+<!--
+            <div class="border border-secondary rounded mb-5">
+              <table class="table table-sm table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-danger">
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td class="text-right">
+                      <i class="material-icons material-icons_touchable text-primary">aspect_ratio</i>
+                      <i class="material-icons material-icons_touchable text-primary">mail_outline</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+-->
+
+
+<!--
+            <div class="mt-auto">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+-->
+
+  <!--            <form class="print-calc-conteiner" data-userid="Tw3ngb"></form>-->
+
+          </div>
+
+        </div>
+      
+      </div>
+
+    </main>
+    
+
+    <footer class="border-top">
+      
+      <div class="container my-2">
+        <span><img src="../img/rocket-logo-192.png" width="25" height="25" alt="Rocket Logo"> Rocket ©</span>
+      </div>
+    
+    </footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="../lite/js/print-calc-library.js?v19"></script>
+    <script src="../lite/js/print-calc-form.js?v19"></script>
+    <script src="../lite/js/print-calc-main.js?v19"></script>
+    
+  </body>
+</html>
