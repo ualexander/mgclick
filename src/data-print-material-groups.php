@@ -100,59 +100,59 @@ $printMaterialGroups = [
           'output' => 40
         ]
       ],
-      'banLamin300' => [
-        'materialNameRu' => 'баннер ламинированный 300 гр',
-        'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'бюджетный баннер / имеет явную текстуру / низкой прочности / рассчитан на короткий срок использования',
-        'materialPrintTypeParametrs' => [
-          '540' => [
-            'nameRu' => '540 dpi широкоформатная',
-            'printerModel' => 'ph 3286',
-            'printParam' => 'проход: 3 / скорость: normal / заливка: 70 / настройка: 7',
-            'printTypeInfoUrl' => '#',
-            'printTypeInfoTitle' => 'средняя яркость / средняя детализация / есть запах / применяется на улице',
-            'printerMaxWidth' => 3200,
-            'priceGradation' => [170, 150, 135, 100],
-            'materialPrice' => 5,
-            // м2 в час
-            'output' => 73
-          ],
-          '720' => [
-            'nameRu' => '720 dpi широкоформатная',
-            'printerModel' => 'ph 3286',
-            'printParam' => 'проход: 4 / скорость: high / заливка: 80 / настройка: 7',
-            'printTypeInfoUrl' => '#',
-            'printTypeInfoTitle' => 'высокая яркость / средняя детализация / есть запах / применяется на улице',
-            'printerMaxWidth' => 3200,
-            'priceGradation' => [200, 180, 155],
-            'materialPrice' => 7,
-            'output' => 52
-          ],
-        ],
-        'materialFormats' => [3200],
-        'materialTechField' => 50,
-        'materialPrice' => 50,
-        // free free10  material full
-        'materialOverspendingDefaultMetrod' => 'material',
-        'materialMargin' => [
-          'x' => 50,
-          'y' => 0
-        ],
-        'materialWeight' => 0.3,
-        'materialCustomOptionalWork' => true,
-        'materialCringle' => true,
-        'materialGain' => false,
-        'materialCut' => true,
-        'materialCord' => false,
-        'materialPocket' => false,
-        'materialLamination' => false,
-        'materialStickToPlastic' => false,
-        'materialCoupling' => [
-          'price' => 40,
-          'margin' => 50,
-          'output' => 40
-        ]
-      ],
+//      'banLamin300' => [
+//        'materialNameRu' => 'баннер ламинированный 300 гр',
+//        'materialInfoUrl' => '#',
+//        'materialInfoTitle' => 'бюджетный баннер / имеет явную текстуру / низкой прочности / рассчитан на короткий срок использования',
+//        'materialPrintTypeParametrs' => [
+//          '540' => [
+//            'nameRu' => '540 dpi широкоформатная',
+//            'printerModel' => 'ph 3286',
+//            'printParam' => 'проход: 3 / скорость: normal / заливка: 70 / настройка: 7',
+//            'printTypeInfoUrl' => '#',
+//            'printTypeInfoTitle' => 'средняя яркость / средняя детализация / есть запах / применяется на улице',
+//            'printerMaxWidth' => 3200,
+//            'priceGradation' => [170, 150, 135, 100],
+//            'materialPrice' => 5,
+//            // м2 в час
+//            'output' => 73
+//          ],
+//          '720' => [
+//            'nameRu' => '720 dpi широкоформатная',
+//            'printerModel' => 'ph 3286',
+//            'printParam' => 'проход: 4 / скорость: high / заливка: 80 / настройка: 7',
+//            'printTypeInfoUrl' => '#',
+//            'printTypeInfoTitle' => 'высокая яркость / средняя детализация / есть запах / применяется на улице',
+//            'printerMaxWidth' => 3200,
+//            'priceGradation' => [200, 180, 155],
+//            'materialPrice' => 7,
+//            'output' => 52
+//          ],
+//        ],
+//        'materialFormats' => [3200],
+//        'materialTechField' => 50,
+//        'materialPrice' => 50,
+//        // free free10  material full
+//        'materialOverspendingDefaultMetrod' => 'material',
+//        'materialMargin' => [
+//          'x' => 50,
+//          'y' => 0
+//        ],
+//        'materialWeight' => 0.3,
+//        'materialCustomOptionalWork' => true,
+//        'materialCringle' => true,
+//        'materialGain' => false,
+//        'materialCut' => true,
+//        'materialCord' => false,
+//        'materialPocket' => false,
+//        'materialLamination' => false,
+//        'materialStickToPlastic' => false,
+//        'materialCoupling' => [
+//          'price' => 40,
+//          'margin' => 50,
+//          'output' => 40
+//        ]
+//      ],
       'banLitoy' => [
         'materialNameRu' => 'баннер литой 510 гр',
         'materialInfoUrl' => '#',
@@ -530,6 +530,80 @@ $printMaterialGroups = [
           'output' => 0
         ]
       ],
+      'orajetBelMatLegko' => [
+        'materialNameRu' => 'orajet белый матовый легкосъемный',
+        'materialInfoUrl' => '#',
+        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / при демонтаже не оставляет следов клея / матовая / производство Германия',
+        'materialPrintTypeParametrs' => [
+          '540' => [
+            'nameRu' => '540 dpi широкоформатная',
+            'printerModel' => 'ph 3286',
+            'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => 'средняя яркость / средняя детализация / есть запах / применяется на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [280, 250, 220, 175],
+            'materialPrice' => 5,
+            'output' => 40
+          ],
+          '720' => [
+            'nameRu' => '720 dpi широкоформатная',
+            'printerModel' => 'ph 3286',
+            'printParam' => 'проход: 4 / скорость: high / в одну сторону / заливка: 80 / настройка: 2',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => 'высокая яркость / средняя детализация / есть запах / применяется на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [305, 285, 220],
+            'materialPrice' => 7,
+            'output' => 24
+          ],
+          '720i' => [
+            'nameRu' => '720 dpi интерьерная',
+            'printerModel' => 'ph 3278',
+            'printParam' => 'проход: 4 / настройка: quality',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => 'средняя яркость / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [390, 340, 235],
+            'materialPrice' => 16,
+            'output' => 12
+          ],
+          '1440i' => [
+            'nameRu' => '1440 dpi интерьерная',
+            'printerModel' => 'ph 3278',
+            'printParam' => 'проход: 6 / настройка: high quality',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => 'высокая яркость / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [430, 370, 275],
+            'materialPrice' => 18,
+            'output' => 8.5
+          ]
+        ],
+        'materialFormats' => [1520],
+        'materialTechField' => 0,
+        'materialPrice' => 120,
+        // free free10  material full
+        'materialOverspendingDefaultMetrod' => 'material',
+        'materialMargin' => [
+          'x' => 20,
+          'y' => 50
+        ],
+        'materialWeight' => 0.3,
+        'materialCustomOptionalWork' => false,
+        'materialCringle' => false,
+        'materialGain' => false,
+        'materialCut' => true,
+        'materialCord' => false,
+        'materialPocket' => false,
+        'materialLamination' => true,
+        'materialStickToPlastic' => true,
+        'materialCoupling' => [
+          'price' => 0,
+          'margin' => 10,
+          'output' => 0
+        ]
+      ],
       'orajetPrGl' => [
         'materialNameRu' => 'orajet прозрачный глянцевый',
         'materialInfoUrl' => '#',
@@ -823,7 +897,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => 'средняя яркость / средняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [275, 255, 190, 170],
+            'priceGradation' => [275, 250, 175, 160],
             'materialPrice' => 5,
             'output' => 73
           ],
@@ -841,7 +915,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [3200],
         'materialTechField' => 50,
-        'materialPrice' => 95,
+        'materialPrice' => 90,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
