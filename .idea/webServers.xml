@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="4060e523-f4ba-4ee0-8499-42ff00cf8983" name="megapolis.click" url="http://megapolis.click">
-        <fileTransfer host="megapolis.click" port="21">
+      <webServer id="4060e523-f4ba-4ee0-8499-42ff00cf8983" name="megapolis.click" url="http://mgclick.ru">
+        <fileTransfer host="mgclick.ru" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

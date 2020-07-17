@@ -8,11 +8,10 @@ function printCalculate($printData, $formData) {
     'перерасходбесплатно',
     'перерасходменьше10бесплатно',
     'перерасходпоценематериала',
-    'скидка',
     'проба',
     'дополнение',
-    'ценаколонка3',
-    'ценаколонка4'
+    'ценаколонка2',
+    'ценаколонка3'
   ];
   
   $CONFIG = [
@@ -43,13 +42,6 @@ function printCalculate($printData, $formData) {
       'calculations' => []
     ]
   ];
-  
-  
-  
-  if (in_array('скидка', $order['commonData']['promoCodes'])) {
-    $CONFIG['MIN_ORDER_PRICE'] = $CONFIG['MIN_ORDER_PRICE'] / 2;
-  }
-  
   
   
   function calcOrderItem($printData, $formOrderItemData, $commonOrderData, $CONFIG) {
@@ -138,12 +130,13 @@ function printCalculate($printData, $formData) {
       ]
     ];
 
-    
-    
-    if (in_array('скидка', $commonOrderData['promoCodes']) && $commonOrderData['totalOrderSquare'] < 20) {
-      $commonOrderData['totalOrderSquare'] = 20;
+    if (in_array('ценаколонка2', $commonOrderData['promoCodes']) && $commonOrderData['totalOrderSquare'] < 50) {
+      $commonOrderData['totalOrderSquare'] = 50;
     }
 
+    if (in_array('ценаколонка3', $commonOrderData['promoCodes']) && $commonOrderData['totalOrderSquare'] < 150) {
+      $commonOrderData['totalOrderSquare'] = 150;
+    }
 
     ///////////////////////////////////////////////////////////////////////////////////////////
     ///////////-----GET VALUE FROM FOM------///////////-----GET VALUE FROM FOM------///////////      
@@ -907,19 +900,6 @@ function printCalculate($printData, $formData) {
     $calculations['print']['price'] = selectPrice($curentPrintType['priceGradation'],
                                                            $curentMaterialGroup['squarePriceGradation'],
                                                            $commonOrderData['totalOrderSquare']);
-
-
-    if (in_array('ценаколонка3', $commonOrderData['promoCodes']) &&
-      isset($curentPrintType['priceGradation'][2]) &&
-        $curentPrintType['priceGradation'][2] < $calculations['print']['price']) {
-      $calculations['print']['price'] = $curentPrintType['priceGradation'][2];
-    }
-
-    if (in_array('ценаколонка4', $commonOrderData['promoCodes']) &&
-      isset($curentPrintType['priceGradation'][3]) &&
-      $curentPrintType['priceGradation'][3] < $calculations['print']['price']) {
-      $calculations['print']['price'] = $curentPrintType['priceGradation'][3];
-    }
 
 
     $calculations['print']['totalPrice'] = (int) ($calculations['print']['quantity'] * $calculations['print']['price']);

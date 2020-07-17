@@ -25,7 +25,7 @@ $printCalcUserConfig = [
     'addCustomerButton' => $config['host'] . '/clients.php?action=add-card',
     'promoCodes' => true,
     // false or arr
-    'quickPromoCodes' => ['скидка', 'проба', 'дополнение'],
+    'quickPromoCodes' => ['проба', 'дополнение'],
 
     'blankButton' => true,
     'toSaveButton' => true,
