@@ -55,7 +55,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1100, 1600, 2200, 2500, 3200],
         'materialTechField' => 50,
-        'materialPrice' => 70,
+        'materialPrice' => 90,
         // free free10 material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -107,7 +107,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [2500, 3200],
         'materialTechField' => 50,
-        'materialPrice' => 120,
+        'materialPrice' => 140,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -159,7 +159,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [3200],
         'materialTechField' => 50,
-        'materialPrice' => 130,
+        'materialPrice' => 150,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -211,7 +211,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [3200],
         'materialTechField' => 50,
-        'materialPrice' => 130,
+        'materialPrice' => 150,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -270,7 +270,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 160,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -322,7 +322,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 160,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -374,7 +374,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 160,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -426,7 +426,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 160,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -515,7 +515,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [3200],
         'materialTechField' => 50,
-        'materialPrice' => 80,
+        'materialPrice' => 100,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -563,7 +563,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1570],
         'materialTechField' => 0,
-        'materialPrice' => 35,
+        'materialPrice' => 55,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -615,7 +615,7 @@ $printMaterialGroups = [
         ],
         'materialFormats' => [1570],
         'materialTechField' => 0,
-        'materialPrice' => 50,
+        'materialPrice' => 70,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
