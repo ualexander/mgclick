@@ -37,7 +37,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [290, 220, 180],
+            'priceGradation' => [230, 180, 160],
             'materialPrice' => 7,
             'output' => 52
           ],
@@ -48,7 +48,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [410, 350, 300],
+            'priceGradation' => [350, 310, 280],
             'materialPrice' => 16,
             'output' => 15.5
           ]
@@ -89,7 +89,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [340, 270, 220],
+            'priceGradation' => [280, 230, 200],
             'materialPrice' => 5,
             'output' => 73
           ],
@@ -100,14 +100,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [500, 420, 320],
+            'priceGradation' => [440, 380, 300],
             'materialPrice' => 16,
             'output' => 15.5
           ]
         ],
         'materialFormats' => [2500, 3200],
         'materialTechField' => 50,
-        'materialPrice' => 120,
+        'materialPrice' => 110,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -141,7 +141,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [355, 285, 235],
+            'priceGradation' => [295, 245, 215],
             'materialPrice' => 5,
             'output' => 73
           ],
@@ -152,14 +152,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [500, 430, 340],
+            'priceGradation' => [460, 400, 320],
             'materialPrice' => 16,
             'output' => 15.5
           ]
         ],
         'materialFormats' => [3200],
         'materialTechField' => 50,
-        'materialPrice' => 130,
+        'materialPrice' => 120,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -182,7 +182,7 @@ $printMaterialGroups = [
         ]
       ],
       'banTrans' => [
-        'materialNameRu' => 'баннер транслюцентный 450 гр',
+        'materialNameRu' => 'баннер транслюцентный 600 гр',
         'materialInfoUrl' => '#',
         'materialInfoTitle' => 'транслюцентный баннер пропускает свет / используется для световых коробов (лайтбоксов) / плотный / однородная текстура / возможна эксплуатация до 3 лет',
         'materialPrintTypeParametrs' => [
@@ -193,7 +193,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [370, 300, 250],
+            'priceGradation' => [310, 260, 230],
             'materialPrice' => 5,
             'output' => 73
           ],
@@ -204,14 +204,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [520, 440, 350],
+            'priceGradation' => [480, 420, 340],
             'materialPrice' => 16,
             'output' => 15.5
           ]
         ],
-        'materialFormats' => [1600, 3200],
+        'materialFormats' => [1600],
         'materialTechField' => 50,
-        'materialPrice' => 130,
+        'materialPrice' => 120,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -243,7 +243,7 @@ $printMaterialGroups = [
       'orajetBelGl' => [
         'materialNameRu' => 'orajet белый глянцевый',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / глянцевая',
+        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / глянцевая / производство Германия',
         'materialPrintTypeParametrs' => [
           '720' => [
             'nameRu' => 'широкоформатная',
@@ -252,7 +252,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [350, 280, 230],
+            'priceGradation' => [290, 240, 210],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -263,14 +263,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [460, 390, 320],
+            'priceGradation' => [400, 350, 300],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 120,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -295,7 +295,7 @@ $printMaterialGroups = [
       'orajetBelMat' => [
         'materialNameRu' => 'orajet белый матовый',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / матовая',
+        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / матовая / производство Германия',
         'materialPrintTypeParametrs' => [
           '720' => [
             'nameRu' => 'широкоформатная',
@@ -304,7 +304,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [350, 280, 230],
+            'priceGradation' => [290, 240, 210],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -315,14 +315,66 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [460, 380, 320],
+            'priceGradation' => [400, 350, 300],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 120,
+        // free free10  material full
+        'materialOverspendingDefaultMetrod' => 'material',
+        'materialMargin' => [
+          'x' => 20,
+          'y' => 50
+        ],
+        'materialWeight' => 0.3,
+        'materialCustomOptionalWork' => false,
+        'materialCringle' => false,
+        'materialGain' => false,
+        'materialCut' => true,
+        'materialCord' => false,
+        'materialPocket' => false,
+        'materialLamination' => true,
+        'materialStickToPlastic' => true,
+        'materialCoupling' => [
+          'price' => 0,
+          'margin' => 10,
+          'output' => 0
+        ]
+      ],
+      'orajetBelMatLegko' => [
+        'materialNameRu' => 'orajet белый матовый легкосъемный',
+        'materialInfoUrl' => '#',
+        'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / при демонтаже не оставляет следов клея / матовая / производство Германия',
+        'materialPrintTypeParametrs' => [
+          '720' => [
+            'nameRu' => 'широкоформатная',
+            'printerModel' => 'ph 3286',
+            'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [310, 260, 230],
+            'materialPrice' => 5,
+            'output' => 40
+          ],
+          '1440' => [
+            'nameRu' => 'интерьерная',
+            'printerModel' => 'ph 3278',
+            'printParam' => 'проход: 4 / настройка: quality',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [420, 370, 320],
+            'materialPrice' => 16,
+            'output' => 12
+          ]
+        ],
+        'materialFormats' => [1520],
+        'materialTechField' => 0,
+        'materialPrice' => 130,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -347,7 +399,7 @@ $printMaterialGroups = [
       'orajetPrGl' => [
         'materialNameRu' => 'orajet прозрачный глянцевый',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / глянцевая',
+        'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / глянцевая / производство Германия',
         'materialPrintTypeParametrs' => [
           '720' => [
             'nameRu' => 'широкоформатная',
@@ -356,7 +408,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [350, 280, 230],
+            'priceGradation' => [290, 240, 210],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -367,14 +419,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [460, 390, 320],
+            'priceGradation' => [400, 350, 300],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 120,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -399,7 +451,7 @@ $printMaterialGroups = [
       'orajetPrMat' => [
         'materialNameRu' => 'orajet прозрачный матовый',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / матовая',
+        'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / матовая / производство Германия',
         'materialPrintTypeParametrs' => [
           '720' => [
             'nameRu' => 'широкоформатная',
@@ -408,7 +460,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [350, 280, 230],
+            'priceGradation' => [290, 240, 210],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -419,14 +471,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [460, 390, 320],
+            'priceGradation' => [400, 350, 300],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
         'materialFormats' => [1050, 1250, 1520],
         'materialTechField' => 0,
-        'materialPrice' => 140,
+        'materialPrice' => 120,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
@@ -460,7 +512,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [380, 320, 290],
+            'priceGradation' => [350, 300, 270],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -488,6 +540,47 @@ $printMaterialGroups = [
           'margin' => 10,
           'output' => 0
         ]
+      ],
+      'kitPl' => [
+        'materialNameRu' => 'пленка эконном',
+        'materialInfoUrl' => '#',
+        'materialInfoTitle' => 'пленка эконом для помещений',
+        'materialPrintTypeParametrs' => [
+          '720' => [
+            'nameRu' => 'широкоформатная',
+            'printerModel' => 'ph 3286',
+            'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+            'printTypeInfoUrl' => '#',
+            'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+            'printerMaxWidth' => 3200,
+            'priceGradation' => [220, 200, 180],
+            'materialPrice' => 5,
+            'output' => 40
+          ]
+        ],
+        'materialFormats' => [1050, 1250, 1520],
+        'materialTechField' => 0,
+        'materialPrice' => 50,
+        // free free10  material full
+        'materialOverspendingDefaultMetrod' => 'material',
+        'materialMargin' => [
+          'x' => 20,
+          'y' => 50
+        ],
+        'materialWeight' => 0.3,
+        'materialCustomOptionalWork' => false,
+        'materialCringle' => false,
+        'materialGain' => false,
+        'materialCut' => true,
+        'materialCord' => false,
+        'materialPocket' => false,
+        'materialLamination' => true,
+        'materialStickToPlastic' => true,
+        'materialCoupling' => [
+          'price' => 0,
+          'margin' => 10,
+          'output' => 0
+        ]
       ]
     ]
   ],
@@ -508,7 +601,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [310, 210, 170],
+            'priceGradation' => [250, 180, 150],
             'materialPrice' => 5,
             'output' => 73
           ]
@@ -556,7 +649,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [220, 200, 160],
+            'priceGradation' => [170, 160, 140],
             'materialPrice' => 5,
             'output' => 40
           ]
@@ -597,7 +690,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [240, 220, 180],
+            'priceGradation' => [190, 180, 160],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -608,7 +701,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [370, 330, 270],
+            'priceGradation' => [320, 290, 250],
             'materialPrice' => 16,
             'output' => 12
           ]
@@ -656,7 +749,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [730, 620, 510],
+            'priceGradation' => [700, 600, 500],
             'materialPrice' => 16,
             'output' => 12
           ]
@@ -687,15 +780,15 @@ $printMaterialGroups = [
       ]
     ]
   ],
-  'beklit' => [
-    'materialsGroupNameRu' => 'бэклит',
+  'tkani' => [
+    'materialsGroupNameRu' => 'ткани',
     'squarePriceGradation' => [1, 50, 150],
     'printTypeGradation' => ['720', '1440'],
     'materials' => [
-      'beklit150mk' => [
-        'materialNameRu' => 'бэклит 150мк',
+      'flag' => [
+        'materialNameRu' => 'флаговая ткань',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'бэклит 150мк',
+        'materialInfoTitle' => 'полиэстеровая ткань для флагов / изображение просвечивается с обратной стороны',
         'materialPrintTypeParametrs' => [
           '1440' => [
             'nameRu' => 'интерьерная',
@@ -704,21 +797,21 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [650, 550, 450],
+            'priceGradation' => [600, 500, 400],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
-        'materialFormats' => [1270],
+        'materialFormats' => [1260],
         'materialTechField' => 0,
-        'materialPrice' => 200,
+        'materialPrice' => 190,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
           'x' => 20,
           'y' => 50
         ],
-        'materialWeight' => 0.15,
+        'materialWeight' => 0.1,
         'materialCustomOptionalWork' => false,
         'materialCringle' => false,
         'materialGain' => false,
@@ -729,7 +822,7 @@ $printMaterialGroups = [
         'materialStickToPlastic' => false,
         'materialCoupling' => [
           'price' => 0,
-          'margin' => 0,
+          'margin' => 10,
           'output' => 0
         ]
       ]
@@ -752,7 +845,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [210, 120, 85],
+            'priceGradation' => [180, 120, 75],
             'materialPrice' => 5,
             'output' => 73
           ],
@@ -763,7 +856,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [270, 210, 150],
+            'priceGradation' => [240, 190, 140],
             'materialPrice' => 16,
             'output' => 15.5
           ]
@@ -804,7 +897,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [230, 140, 90],
+            'priceGradation' => [200, 140, 80],
             'materialPrice' => 5,
             'output' => 40
           ],
@@ -815,7 +908,7 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [280, 220, 160],
+            'priceGradation' => [250, 200, 150],
             'materialPrice' => 16,
             'output' => 12
           ]

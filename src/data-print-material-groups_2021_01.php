@@ -240,6 +240,219 @@ $printMaterialGroups = [
     'squarePriceGradation' => [1, 50, 150],
     'printTypeGradation' => ['720', '1440'],
     'materials' => [
+
+
+			'plenkaBelGl' => [
+				'materialNameRu' => 'пленка белая глянцевая',
+				'materialInfoUrl' => '#',
+				'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / глянцевая',
+				'materialPrintTypeParametrs' => [
+					'720' => [
+						'nameRu' => 'широкоформатная',
+						'printerModel' => 'ph 3286',
+						'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [350, 280, 230],
+						'materialPrice' => 5,
+						'output' => 40
+					],
+					'1440' => [
+						'nameRu' => 'интерьерная',
+						'printerModel' => 'ph 3278',
+						'printParam' => 'проход: 4 / настройка: quality',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [460, 390, 320],
+						'materialPrice' => 16,
+						'output' => 12
+					]
+				],
+				'materialFormats' => [1050, 1250, 1520],
+				'materialTechField' => 0,
+				'materialPrice' => 140,
+				// free free10  material full
+				'materialOverspendingDefaultMetrod' => 'material',
+				'materialMargin' => [
+					'x' => 20,
+					'y' => 50
+				],
+				'materialWeight' => 0.3,
+				'materialCustomOptionalWork' => false,
+				'materialCringle' => false,
+				'materialGain' => false,
+				'materialCut' => true,
+				'materialCord' => false,
+				'materialPocket' => false,
+				'materialLamination' => true,
+				'materialStickToPlastic' => true,
+				'materialCoupling' => [
+					'price' => 0,
+					'margin' => 10,
+					'output' => 0
+				]
+			],
+			'plenkaBelMat' => [
+				'materialNameRu' => 'пленка белая матовая',
+				'materialInfoUrl' => '#',
+				'materialInfoTitle' => 'белая самоклеющаяся пленка высокого качества / матовая',
+				'materialPrintTypeParametrs' => [
+					'720' => [
+						'nameRu' => 'широкоформатная',
+						'printerModel' => 'ph 3286',
+						'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [350, 280, 230],
+						'materialPrice' => 5,
+						'output' => 40
+					],
+					'1440' => [
+						'nameRu' => 'интерьерная',
+						'printerModel' => 'ph 3278',
+						'printParam' => 'проход: 4 / настройка: quality',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [460, 380, 320],
+						'materialPrice' => 16,
+						'output' => 12
+					]
+				],
+				'materialFormats' => [1050, 1250, 1520],
+				'materialTechField' => 0,
+				'materialPrice' => 140,
+				// free free10  material full
+				'materialOverspendingDefaultMetrod' => 'material',
+				'materialMargin' => [
+					'x' => 20,
+					'y' => 50
+				],
+				'materialWeight' => 0.3,
+				'materialCustomOptionalWork' => false,
+				'materialCringle' => false,
+				'materialGain' => false,
+				'materialCut' => true,
+				'materialCord' => false,
+				'materialPocket' => false,
+				'materialLamination' => true,
+				'materialStickToPlastic' => true,
+				'materialCoupling' => [
+					'price' => 0,
+					'margin' => 10,
+					'output' => 0
+				]
+			],
+			'plenkaPrGl' => [
+				'materialNameRu' => 'пленка прозрачная глянцевая',
+				'materialInfoUrl' => '#',
+				'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / глянцевая',
+				'materialPrintTypeParametrs' => [
+					'720' => [
+						'nameRu' => 'широкоформатная',
+						'printerModel' => 'ph 3286',
+						'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [350, 280, 230],
+						'materialPrice' => 5,
+						'output' => 40
+					],
+					'1440' => [
+						'nameRu' => 'интерьерная',
+						'printerModel' => 'ph 3278',
+						'printParam' => 'проход: 4 / настройка: quality',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [460, 390, 320],
+						'materialPrice' => 16,
+						'output' => 12
+					]
+				],
+				'materialFormats' => [1050, 1250, 1520],
+				'materialTechField' => 0,
+				'materialPrice' => 140,
+				// free free10  material full
+				'materialOverspendingDefaultMetrod' => 'material',
+				'materialMargin' => [
+					'x' => 20,
+					'y' => 50
+				],
+				'materialWeight' => 0.3,
+				'materialCustomOptionalWork' => false,
+				'materialCringle' => false,
+				'materialGain' => false,
+				'materialCut' => true,
+				'materialCord' => false,
+				'materialPocket' => false,
+				'materialLamination' => true,
+				'materialStickToPlastic' => true,
+				'materialCoupling' => [
+					'price' => 0,
+					'margin' => 10,
+					'output' => 0
+				]
+			],
+			'plenkaPrMat' => [
+				'materialNameRu' => 'пленка прозрачная матовая',
+				'materialInfoUrl' => '#',
+				'materialInfoTitle' => 'прозрачная самоклеющаяся пленка высокого качества / матовая',
+				'materialPrintTypeParametrs' => [
+					'720' => [
+						'nameRu' => 'широкоформатная',
+						'printerModel' => 'ph 3286',
+						'printParam' => 'проход: 4 / скорость: high / заливка: 70 / настройка: 2',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '720 dpi / cредняя детализация / есть запах / применяется на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [350, 280, 230],
+						'materialPrice' => 5,
+						'output' => 40
+					],
+					'1440' => [
+						'nameRu' => 'интерьерная',
+						'printerModel' => 'ph 3278',
+						'printParam' => 'проход: 4 / настройка: quality',
+						'printTypeInfoUrl' => '#',
+						'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
+						'printerMaxWidth' => 3200,
+						'priceGradation' => [460, 390, 320],
+						'materialPrice' => 16,
+						'output' => 12
+					]
+				],
+				'materialFormats' => [1050, 1250, 1520],
+				'materialTechField' => 0,
+				'materialPrice' => 140,
+				// free free10  material full
+				'materialOverspendingDefaultMetrod' => 'material',
+				'materialMargin' => [
+					'x' => 20,
+					'y' => 50
+				],
+				'materialWeight' => 0.3,
+				'materialCustomOptionalWork' => false,
+				'materialCringle' => false,
+				'materialGain' => false,
+				'materialCut' => true,
+				'materialCord' => false,
+				'materialPocket' => false,
+				'materialLamination' => true,
+				'materialStickToPlastic' => true,
+				'materialCoupling' => [
+					'price' => 0,
+					'margin' => 10,
+					'output' => 0
+				]
+			],
+
+
+
       'orajetBelGl' => [
         'materialNameRu' => 'orajet белый глянцевый',
         'materialInfoUrl' => '#',
@@ -448,6 +661,8 @@ $printMaterialGroups = [
           'output' => 0
         ]
       ],
+
+
       'plenkaPerf' => [
         'materialNameRu' => 'пленка перфарированная',
         'materialInfoUrl' => '#',
@@ -687,15 +902,15 @@ $printMaterialGroups = [
       ]
     ]
   ],
-  'beklit' => [
-    'materialsGroupNameRu' => 'бэклит',
+  'tkani' => [
+    'materialsGroupNameRu' => 'ткани',
     'squarePriceGradation' => [1, 50, 150],
     'printTypeGradation' => ['720', '1440'],
     'materials' => [
-      'beklit150mk' => [
-        'materialNameRu' => 'бэклит 150мк',
+      'flag' => [
+        'materialNameRu' => 'флаговая ткань',
         'materialInfoUrl' => '#',
-        'materialInfoTitle' => 'бэклит 150мк',
+        'materialInfoTitle' => 'полиэстеровая ткань для флагов / изображение просвечивается с обратной стороны',
         'materialPrintTypeParametrs' => [
           '1440' => [
             'nameRu' => 'интерьерная',
@@ -704,21 +919,21 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [650, 550, 450],
+            'priceGradation' => [630, 520, 410],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
-        'materialFormats' => [1270],
+        'materialFormats' => [1260],
         'materialTechField' => 0,
-        'materialPrice' => 200,
+        'materialPrice' => 190,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
           'x' => 20,
           'y' => 50
         ],
-        'materialWeight' => 0.15,
+        'materialWeight' => 0.1,
         'materialCustomOptionalWork' => false,
         'materialCringle' => false,
         'materialGain' => false,
@@ -729,7 +944,7 @@ $printMaterialGroups = [
         'materialStickToPlastic' => false,
         'materialCoupling' => [
           'price' => 0,
-          'margin' => 0,
+          'margin' => 10,
           'output' => 0
         ]
       ]

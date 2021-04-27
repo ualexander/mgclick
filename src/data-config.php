@@ -1,14 +1,14 @@
 <?php
 
 $config = [
-  'host' => 'http://megapolis.loc',
+  'host' => 'http://mgclick.ru',
   'maxTabeleRow' => 50,
   'daysForCancelItem' => 2,
   'currency' => 'р.',
   'dateFormat' => 'd.m.Y',
   'minMaterialQuantity' => 20,
   'email' => 'megacmyk@yandex.ru',
-  'emailPsw' => 'flex2014',
+  'emailPsw' => 'Flex2020',
   'emailHeader' => 'Студия печати Мегаполис',
   'companyTel' => '+7 977 811 89 66',
   'paymentsType' => [

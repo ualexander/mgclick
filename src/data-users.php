@@ -8,7 +8,7 @@ $users = [
     'tel' => '+7 977 811 89 67'
   ],
   'tnatteleg' => [
-    'password' => 'Asd9906656',
+    'password' => 'KLf8dssdF',
     'name' => 'Наталья',
     'fullInfo' => false,
     'tel' => '+7 977 811 89 66'

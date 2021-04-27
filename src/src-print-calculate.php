@@ -23,7 +23,7 @@ function printCalculate($printData, $formData) {
     // мм в м
     'CONVERT_MM_TO_M' => 1000,
     // до этого количества сегментов стыковка делится на равные сегменты
-    'MAX_SAME_COUPLING_ITEMS' => 3,
+    'MAX_SAME_COUPLING_ITEMS' => 999,
     // от этой ширины подбирается оптимальный по перерасходу формат, после кладется на максимальный
     'MAX_WIDTH_OPTIMAL_COUPLIG' => 10000,
     'MIN_ORDER_PRICE'  => 1000,
