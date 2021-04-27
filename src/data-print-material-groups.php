@@ -209,7 +209,7 @@ $printMaterialGroups = [
             'output' => 15.5
           ]
         ],
-        'materialFormats' => [1600, 3200],
+        'materialFormats' => [3200],
         'materialTechField' => 50,
         'materialPrice' => 130,
         // free free10  material full
