@@ -704,14 +704,14 @@ $printMaterialGroups = [
             'printTypeInfoUrl' => '#',
             'printTypeInfoTitle' => '1440 dpi ECO / высокая детализация / без запаха / применяется как в помещение, так и на улице',
             'printerMaxWidth' => 3200,
-            'priceGradation' => [650, 550, 450],
+            'priceGradation' => [650, 550, 410],
             'materialPrice' => 16,
             'output' => 12
           ]
         ],
         'materialFormats' => [1270],
         'materialTechField' => 0,
-        'materialPrice' => 200,
+        'materialPrice' => 190,
         // free free10  material full
         'materialOverspendingDefaultMetrod' => 'material',
         'materialMargin' => [
