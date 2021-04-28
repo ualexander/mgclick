@@ -687,8 +687,8 @@ $printMaterialGroups = [
       ]
     ]
   ],
-  'beklit' => [
-    'materialsGroupNameRu' => 'бэклит',
+  'pet' => [
+    'materialsGroupNameRu' => 'пэт',
     'squarePriceGradation' => [1, 50, 150],
     'printTypeGradation' => ['720', '1440'],
     'materials' => [
