@@ -9,7 +9,7 @@
   "author": "aleanches",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^8.40.0",
     "eslint-config-htmlacademy": "^0.5.2"
   }
 }
